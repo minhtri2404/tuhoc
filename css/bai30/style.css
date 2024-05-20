@@ -1,0 +1,9 @@
+/* div p{
+    color: red;
+}
+.loichuc p{
+    font-size: 30px;
+} */
+div > p{
+    color: red;
+}

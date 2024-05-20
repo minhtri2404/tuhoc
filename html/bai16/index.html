@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cách cài đặt git</title>
+</head>
+<body>
+    <p>
+        <b>git clone</b> dùng để lấy bài từ githup về máy. <br>
+        <hr>
+        
+        Bước 1: Vào terminal->newTerminal->bấm vào dấu +-> select default profile-> bấm chọn gitBash <br>
+        Bước 2: Ghi câu lệnh git status vào terminal, câu lệnh này để kiểm tra xem thư mục có git chưa, nếu chưa xuống bước 3. <br>
+        Bước 3: Ghi câu lệnh git init, câu lệnh này khởi tạo thành công thư mục .git <br>
+        Bước 4: Quay lại bước 1 sẽ thấy terminal ghi file chưa được theo dõi. <br>
+        Bước 5: Nếu muốn gửi tất cả thì dùng lệnh: git add .
+                Nếu muốn gửi lẻ thư mục hoặc file thì dùng lệnh: git add thumuc/ hoặc git add add1.html
+                Xong dùng lệnh: git commit -m "first commit" sẽ hiện ra lỗi ko có email và tên.
+                $ git config --global user.email "" lưu ý: email là lúc mình tạo trên githup.
+                $ git config --global user.name "" lưu ý: tên là lúc mình đặt tên trên githup.
+                Xong rồi ghi lại dòng lệnh: git commit -m "first commit" rồi ấn enter. <br>
+        Bước 6: ghi dòng lệnh git branch -M main, câu lệnh này sẽ chuyển tử master thành main <br>
+        Bước 7: git remote add origin https:// đẩy lên githup mà dự án mình tạo <br>
+        Bước 8: git push -u origin main
+        <hr>
+
+        
+        
+    </p>
+</body>
+</html>

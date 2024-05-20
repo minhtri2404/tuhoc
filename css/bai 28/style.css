@@ -1,0 +1,12 @@
+*{
+    /* Thêm code CSS để toàn bộ các phần tử có :  */
+    /* 1. chữ màu blue  */
+    color: violet;
+    /* 2. font-size 30px  */
+    font-size: 20px;
+}
+h2.demo{
+    color: red;
+}
+
+

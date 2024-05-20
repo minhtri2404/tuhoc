@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+p{
+    color: red;
+}
+#doan_van{
+    color: violet;
+}
+.demo{
+    color: rgb(11, 226, 162);
+    font-weight: 300;
+    font-style: italic;
+}
+.item_ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+    list-style: none;
+}
